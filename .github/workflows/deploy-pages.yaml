@@ -28,7 +28,7 @@ jobs:
       - name: Build with Jekyll (마크다운을 웹페이지로 변환!)
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./members.md
+          source: ./src
           destination: ./_site
           
       - name: Upload artifact (변환된 웹페이지 파일들을 업로드 대기열에 올림)
